@@ -12,12 +12,10 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://www.cnet.com/a/img/resize/cb2b9a619e78650b6a298f10bf144316b88e6ad4/hub/2025/03/04/b51f63e4-a1fb-4355-abbc-07ffcd78ed44/aurora-borealis-gettyimages-1835012818.jpg?auto=webp&fit=crop&height=675&width=1200',
+            image: AssetImage('Images/diamond.png'),
             ),
           ),
         ),
       ),
-    ),
   );
 }
